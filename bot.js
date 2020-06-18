@@ -394,3 +394,6 @@ if (message.content.startsWith(prefix + 'help')) {
     })
     }
 }); 
+
+client.login(process.env.BOT_TOKEN);
+
